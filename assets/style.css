@@ -1,0 +1,28 @@
+/*
+  This is where you could put custom CSS if you weren't using Tailwind via CDN
+  in app.py's index_string. For this example, we'll primarily rely on Tailwind
+  classes directly in the layout.py for styling.
+
+  If anyone here wanted to add more complex global styles, or styles for components
+  that are hard to target with Tailwind alone, you'd do it here.
+  Dash automatically serves files from the 'assets' folder.
+
+  Example:
+  body {
+      font-family: 'Inter', sans-serif; // Already handled by Tailwind CDN setup in app.py
+      background-color: #111827; // Tailwind class bg-gray-900
+  }
+
+  .custom-card-header {
+      background-color: #374151; // Tailwind class bg-gray-700
+      color: #d1d5db; // Tailwind class text-gray-300
+      padding: 1rem;
+      font-weight: bold;
+      border-bottom: 1px solid #4b5563; // Tailwind class border-gray-600
+  }
+*/
+
+/* Adding a very basic style to show this file is active if needed */
+.test-asset-style {
+    color: limegreen !important; /* This is just for testing if the asset folder is working */
+}
